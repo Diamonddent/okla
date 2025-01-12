@@ -1,0 +1,1 @@
+const SwalPopup={showSingleButtonPopup:function(e,t=()=>{}){if(empty(e)){alert("config cannot be empty for swal");return}typeof e.customClass=="undefined"&&(e.customClass={}),e.customClass.actions="swal2-actions-single-button",Swal.fire(e).then(e=>{t(e)})}}
